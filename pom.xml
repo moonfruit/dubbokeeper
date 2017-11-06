@@ -93,6 +93,12 @@
                 <artifactId>commons-dbutils</artifactId>
                 <version>${commons-dbutils.version}</version>
             </dependency>
+           <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>1.2</version>
+                <scope>provided</scope>
+            </dependency>
 
             <!--json-->
             <dependency>
